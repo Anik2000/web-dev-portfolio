@@ -8,6 +8,8 @@
 }
 
 /* shared style */
+*{
+    
 .text-primary{
     color: #FD6E0A;
 }
@@ -187,4 +189,38 @@ hr{
 .btn-center{
     text-align: center;
     margin-top: 50px;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-bottom: 24px;
+}
+
+footer textarea{
+    width: 461px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-bottom: 24px;
+}
+footer p{
+    width: 550px;
+}
+.footer-images{
+    display: flex;
+    gap: 24px;
 }
