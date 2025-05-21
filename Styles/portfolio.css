@@ -111,6 +111,7 @@ nav li a{
 .about-items{
     display: flex;
     justify-content: space-around;
+    line-height: 10px;
 }
 .item-description{
     font-weight: 600;
@@ -120,6 +121,11 @@ nav li a{
 .item-title{
     color: #757575;
     font-size: 20px;
+}
+.about-us{
+    border: 2px solid #000000 ;
+    background-color: #FFFFFF;
+    padding: 0 10px;
 }
 
 /* main styles */
